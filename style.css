@@ -1,0 +1,166 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e49d1a;
+    color: #333;
+    line-height: 1.6;
+    border-radius: 40px;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #f7900a;
+    color: #fcfdfd;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+/* Estilo de los títulos de las secciones */
+section h1 {
+    margin: 20px 0;
+    text-align: center;
+    color: #c90d0d;
+    border-radius: 90px;
+ 
+    font-size: 2em;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.vidmolten {
+width: 900px;
+height: 300px;
+}
+.indenv {
+    width: 300px; /* Establece el ancho de la imagen */
+    border: #28a745; width: 150px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 2px solid #463232; /* Añade un borde de 2 píxeles de color gris oscuro */
+    border-radius: 100px; /* Redondea las esquinas de la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+    margin: 20px auto; /* Añade un margen y centra la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque, útil para centrado */
+}
+
+.lol{
+border-radius: 10px;
+
+
+}
+section{
+color: #140c01;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: x-large;
+background-color: #e99700;
+border-radius: 10px;
+}
+
+/* Galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Elementos de la galería */
+.gallery-item {
+    background-color: #f7900a;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img,
+.gallery-item video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item h3 {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #28a745;
+    color: #020202;
+    font-size: 1.2em;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #28a745;
+    color: #fa0000;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-item {
+        width: 90%;
+    }
+}
+/* Sección de contacto */
+#contacto {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e99700;
+}
+
+#contacto h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Botón de WhatsApp */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: rgb(12, 3, 3);
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.whatsapp-button:hover {
+    background-color: #20b857;
+}
